@@ -1,7 +1,7 @@
 import random
 from sys import argv
 
-
+# новый комментарий для гитхаба
 def guess(min_numb, max_numb=10, count=3):
     numb_1 = random.randint(min_numb, max_numb)
     for i in range(count):
